@@ -18,4 +18,8 @@ My reading list for my Summer 2017 internship at Voyage. Material that I found u
 | [Link](https://arxiv.org/pdf/1506.02640.pdf) | You Only Look Once: Unified, Real-Time Object Detection | Convolutional object detection but with a single pass. Uses anchors and fixed grid to generate a fixed number of bounding boxes with class scores and probabilities. Idea is that R-CNN and region proposal networks are over complicated and that just making it a single network is a good simple idea to explore. |
 | [Link](https://arxiv.org/pdf/1612.08242.pdf) | YOLO9000: Better, Faster, Stronger | YOLO v2 proposes improvements to their previous work that improve performance. Removes fully connected layers, increases resolution so that their detector network doesnt have to learn a new resolution, bounds offsets with a logistic activation so that the model cant put proposals anywhere in the image but only in the local anchor area this makes the model more stable, changes classification vector to not be 1000 long but 1369 long to represent probabilities of intermediate nodes in imagenet and softmaxes along branching points |
 | [Link](https://arxiv.org/pdf/1706.08355.pdf) | Deep Semantic Classification for 3D LiDAR Data | They use both an objectness score and a “dynamicity” score to detect and classify objects. Also some other things going on, good read. |
+
+Also this:
+
+https://github.com/takeitallsource/awesome-autonomous-vehicles
    
